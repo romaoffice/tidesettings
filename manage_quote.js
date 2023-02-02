@@ -1,6 +1,6 @@
 
 const {cloneToken} = require("./common.js")
-
+const fs = require("fs")
 async function renew_quote(mainnet,web3Main,web3Test){
 	
 	console.log("Renew quote.");
