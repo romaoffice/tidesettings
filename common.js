@@ -5,10 +5,15 @@ const address_testnet = require("./config/address_testnet.json")
 async function cloneToken(web3main,web3test,mainAddress){
 	
 	//clone token
+	console.log(`Clone token for ${mainAddress}`);
 	const info = await getTokenInfo(web3main,mainAddress);
+	console.log('Got info')
+	console.log(info)
 	const deployer = new web3test.eth.Contract(TOKENDEPLOYER_ABI,address_testnet.token_deployer);
 	const prevCount = await deployer.methods.totalTokens().call();
-	const rt = await deployer.methods.deployNewToken(info.erc20,info.symbol,info.name,info._totalSupply,info.decimals);
+	const rt = await deployer.methods
+		.deployNewToken(info.erc20,info.symbol,info.name,info._totalSupply,info.decimals)
+		.send({account:web3Test.eth.defaultAccount});
 	const lastCount = await deployer.methods.totalTokens().call();
 	const cloneAddress = await deployer.methods.tokenInfo(lastCount-1).call();
 
