@@ -3,7 +3,7 @@ const {cloneToken} = require("./common.js")
 
 async function renew_quote(mainnet,web3Main,web3Test){
 	
-	log("Renew quote.");
+	console.log("Renew quote.");
 	
 	let tokens_path = `./config/tokens_${mainnet?"mainnet":"testnet"}`
 	let rawdata = fs.readFileSync(tokens_path);
