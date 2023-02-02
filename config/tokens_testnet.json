@@ -1,7 +1,7 @@
 {
 	"quotetoken":{
 		"address":"0x2485e436ec3C9E88fda76BAc6513Bf3D4495f57d",
-		"lendingfee":1200,//1e6 %
+		"lendingfee":1200
 	},
 	"tokenlist":[
 		{
