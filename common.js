@@ -31,9 +31,9 @@ async function cloneToken(web3main,web3test,mainAddress){
 async function getTokenInfo(web3main,tokenAddress){
 	const erc20 = new web3main.eth.Contract(ERC20_ABI,tokenAddress);
 	const symbol = await erc20.methods.symbol().call();
-	console.log('symbol',symbol)
 	const name = await erc20.methods.name().call();
 	const _totalSupply = await erc20.methods._totalSupply().call();
+	console.log(_totalSupply)
 	const decimals = await erc20.methods.decimals().call();
 	return {erc20,symbol,name,_totalSupply,decimals};
 }
