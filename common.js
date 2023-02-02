@@ -1,6 +1,6 @@
 const ERC20_ABI = require("./abi/erc20.json");
 const TOKENDEPLOYER_ABI = require("./abi/tidetokendeployer.json");
-const address_testnet = require("./config.address_testnet.json")
+const address_testnet = require("./config/address_testnet.json")
 
 async function cloneToken(web3main,web3test,mainAddress){
 	
