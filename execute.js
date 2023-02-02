@@ -56,7 +56,7 @@ async function main(){
 	]
 	const options = commandLineArgs(optionDefinitions)
 
-	log(`Process with ${options.mainnet?:"mainnet":"testnet"}.`);
+	log(`Process with ${options.mainnet?"mainnet":"testnet"}.`);
 
 	beforeRunnung(options.mainnet);
 
