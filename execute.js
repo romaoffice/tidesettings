@@ -69,3 +69,5 @@ async function main(){
 	}
 	console.log("Completed process")
 }
+
+main();
