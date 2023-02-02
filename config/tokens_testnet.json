@@ -1,0 +1,13 @@
+{
+	"quotetoken":{
+		"address":"0x2485e436ec3C9E88fda76BAc6513Bf3D4495f57d",
+		"lendingfee":1200,//1e6 %
+	},
+	"tokenlist":[
+		{
+			"address":"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+			"binancesymbol":"BNBUSDT",
+			"priceFeed":"0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE"
+		}
+	]
+}
