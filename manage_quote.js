@@ -5,7 +5,7 @@ async function renew_quote(mainnet,web3Main,web3Test){
 	
 	console.log("Renew quote.");
 	
-	let tokens_path = `./config/tokens_${mainnet?"mainnet":"testnet"}`
+	let tokens_path = `./config/tokens_${mainnet?"mainnet":"testnet"}.json`
 	let rawdata = fs.readFileSync(tokens_path);
 	const tokens = JSON.parse(rawdata);
 

@@ -11,10 +11,8 @@ const {renew_quote} = require("./manage_quote")
 let web3test,web3main;
 
 function beforeRunnung(mainnet){
-	console.log(process.env.EXECUTOR);
-
 	executor = process.env.EXECUTOR
-	if(executor=="") {
+	if(executor==undefined) {
 		console.log("Please set EXECUTOR for private key.");
 		return false
 	}
@@ -35,6 +33,7 @@ function beforeRunnung(mainnet){
 
 	}
 	
+	return true;
 
 }
 function log(memo){
@@ -58,15 +57,20 @@ async function main(){
 
 	log(`Process with ${options.mainnet?"mainnet":"testnet"}.`);
 
-	beforeRunnung(options.mainnet);
-
-	if(options.cmd=="renew_quote"){
-		await renew_quote(options.mainnet,web3Main,web3Test);
-	}else if(options.cmd=="lendingfee"){
-		await change_lendingfee(options.mainnet,web3Main,web3Test);
-	}else if(options.cmd=="sync_pairs"){
-		await sync_pairs(options.mainnet,web3Main,web3Test);
+	const rtInit = beforeRunnung(options.mainnet);
+	if(rtInit){
+		if(options.cmd=="renew_quote"){
+			await renew_quote(options.mainnet,web3Main,web3Test);
+		}else if(options.cmd=="lendingfee"){
+			await change_lendingfee(options.mainnet,web3Main,web3Test);
+		}else if(options.cmd=="sync_pairs"){
+			await sync_pairs(options.mainnet,web3Main,web3Test);
+		}
+	
+	}else{
+		console.log("Failed to init");
 	}
+
 	console.log("Completed process")
 }
 
