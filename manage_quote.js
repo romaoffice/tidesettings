@@ -16,7 +16,7 @@ async function renew_quote(mainnet,web3Main,web3Test){
 }
 
 async function updateLendingFee(mainnet,web3Main,web3Test){
-	update stkae lending fee
+	//update stkae lending fee
 }
 module.exports ={
 	renew_quote
