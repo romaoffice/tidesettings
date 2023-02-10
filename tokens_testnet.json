@@ -1,0 +1,16 @@
+{
+   "quotetoken":{
+      "address":"0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "tideaddress":"0x6Ce92F9BA567ec33381F7b5cE689627d6979657A",
+      "lendingfee":1200
+   },
+   "tokens":[
+      {
+         "address":"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+         "tideaddress":"0xabeba76a8BBFEa965F510f29888205D2AD55c353",
+         "name":"Wrapped BNB",
+         "symbol":"WBNB",
+         "decimals":"18"
+      }
+   ]
+}
