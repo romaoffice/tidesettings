@@ -1,15 +1,204 @@
 {
    "quotetoken":{
       "address":"0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-      "tideaddress":"0x6Ce92F9BA567ec33381F7b5cE689627d6979657A",
+      "tideaddress":"0xb7f1FE9D45B024EC3049aAF2D1A52cAD9A559a4A",
       "lendingfee":1200
    },
    "tokens":[
       {
          "address":"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-         "tideaddress":"0xabeba76a8BBFEa965F510f29888205D2AD55c353",
+         "tideaddress":"0x68c44a58a0893f53aeB70fe22f5111c6304Cd621",
          "name":"Wrapped BNB",
          "symbol":"WBNB",
+         "decimals":"18"
+      },
+      {
+         "address":"0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+         "tideaddress":"0x965cAac30aFE710aB1119072ED9E25a49B0a5231",
+         "name":"Ethereum Token",
+         "symbol":"ETH",
+         "decimals":"18"
+      },
+      {
+         "address":"0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+         "tideaddress":"0xe61795f4E3948d3db57346771385ca12a0fF90b5",
+         "name":"BTCB Token",
+         "symbol":"BTC",
+         "decimals":"18"
+      },
+      {
+         "address":"0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+         "tideaddress":"0x47e78eeFB8FB566067cF5624ED13141F6884828C",
+         "name":"Dogecoin",
+         "symbol":"DOGE",
+         "decimals":"8"
+      },
+      {
+         "address":"0xfb6115445bff7b52feb98650c87f44907e58f802",
+         "tideaddress":"0x3ad856633f0c63cC7fd1A6B44013Ab2cCde97e6b",
+         "name":"Aave Token",
+         "symbol":"AAVE",
+         "decimals":"18"
+      },
+      {
+         "address":"0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+         "tideaddress":"0x0B7CeE9Dd2dD6B9B98E8Ab321b083EDd1bE1A711",
+         "name":"Cardano Token",
+         "symbol":"ADA",
+         "decimals":"18"
+      },
+      {
+         "address":"0xe02df9e3e622debdd69fb838bb799e3f168902c5",
+         "tideaddress":"0xa6a85bE2ef8BA98087Fff645762DA06E9f45E1Ba",
+         "name":"BakeryToken",
+         "symbol":"BAKE",
+         "decimals":"18"
+      },
+      {
+         "address":"0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+         "tideaddress":"0x26720115043216fCA969fb8f3Ea3268E8F11A22c",
+         "name":"Bitcoin Cash Token",
+         "symbol":"BCH",
+         "decimals":"18"
+      },
+      {
+         "address":"0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97",
+         "tideaddress":"0xB5128c78d796d8f93257541212d215251E582111",
+         "name":"BinaryX",
+         "symbol":"BNX",
+         "decimals":"18"
+      },
+      {
+         "address":"0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+         "tideaddress":"0x2f2A5d2d5fE2C3570f50475a53dD4243Cf865ee4",
+         "name":"PancakeSwap Token",
+         "symbol":"Cake",
+         "decimals":"18"
+      },
+      {
+         "address":"0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888",
+         "tideaddress":"0xF647AdAB06C8B54e395EDD64e485b91FDbB10493",
+         "name":"Cream",
+         "symbol":"CREAM",
+         "decimals":"18"
+      },
+      {
+         "address":"0x67ee3cb086f8a16f34bee3ca72fad36f7db929e2",
+         "tideaddress":"0xC7c95e25275B80f92179Cf8E45Ef7FBc52D0eAcB",
+         "name":"DODO bird",
+         "symbol":"DODO",
+         "decimals":"18"
+      },
+      {
+         "address":"0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
+         "tideaddress":"0x88cfa33158bE31A9DdC1bCA5a765F04737a3A9bb",
+         "name":"Polkadot Token",
+         "symbol":"DOT",
+         "decimals":"18"
+      },
+      {
+         "address":"0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+         "tideaddress":"0x425DA37181f1e9582b01C916ca2380Dc32daA964",
+         "name":"Filecoin",
+         "symbol":"FIL",
+         "decimals":"18"
+      },
+      {
+         "address":"0x928e55daB735aa8260AF3cEDadA18B5f70C72f1b",
+         "tideaddress":"0x90836Bc26C5FD8617d559bE504Fe1bfe56E58c96",
+         "name":"Frontier Token",
+         "symbol":"FRONT",
+         "decimals":"18"
+      },
+      {
+         "address":"0x3019bf2a2ef8040c242c9a4c5c4bd4c81678b2a1",
+         "tideaddress":"0x0eaAA9eC6078AD56E2Baef7eEE15ea6696998aA3",
+         "name":"Green Metaverse Token",
+         "symbol":"GMT",
+         "decimals":"8"
+      },
+      {
+         "address":"0xa2b726b1145a4773f68593cf171187d8ebe4d495",
+         "tideaddress":"0xD539E65BA1Fd3C72733061bC315d444C170b88f6",
+         "name":"Injective Protocol",
+         "symbol":"INJ",
+         "decimals":"18"
+      },
+      {
+         "address":"0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
+         "tideaddress":"0x13789d4B4645FEAee431A974114364621Ed5b6ac",
+         "name":"ChainLink Token",
+         "symbol":"LINK",
+         "decimals":"18"
+      },
+      {
+         "address":"0x4338665cbb7b2485a8855a139b75d5e34ab0db94",
+         "tideaddress":"0x784Af2948c9276A348728045F0e56e32B652dcfd",
+         "name":"Litecoin Token",
+         "symbol":"LTC",
+         "decimals":"18"
+      },
+      {
+         "address":"0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+         "tideaddress":"0x9CA969763f91e84541466E3Ec50B1E1655907485",
+         "name":"Matic Token",
+         "symbol":"MATIC",
+         "decimals":"18"
+      },
+      {
+         "address":"0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377",
+         "tideaddress":"0x93fEdb9Bb75f74248FF7d792D25095EE78ddc352",
+         "name":"Mobox",
+         "symbol":"MBOX",
+         "decimals":"18"
+      },
+      {
+         "address":"0xf21768ccbc73ea5b6fd3c687208a7c2def2d966e",
+         "tideaddress":"0xCd1cF56b8DBab3B7469A8De16BAC02C0E6AB5265",
+         "name":"Reef.finance",
+         "symbol":"REEF",
+         "decimals":"18"
+      },
+      {
+         "address":"0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb",
+         "tideaddress":"0xBE6eD87792C3278E2D9161Df093348A47583a659",
+         "name":"SafePal Token",
+         "symbol":"SFP",
+         "decimals":"18"
+      },
+      {
+         "address":"0x47bead2563dcbf3bf2c9407fea4dc236faba485a",
+         "tideaddress":"0xA33FbC042f4a6146e9D4849a1A3cFfcB2180a5EF",
+         "name":"Swipe",
+         "symbol":"SXP",
+         "decimals":"18"
+      },
+      {
+         "address":"0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b",
+         "tideaddress":"0xF8d60f5e0E71F6EAF08Ce699C6bd072677410975",
+         "name":"TRON",
+         "symbol":"TRX",
+         "decimals":"18"
+      },
+      {
+         "address":"0x4b0f1812e5df2a09796481ff14017e6005508003",
+         "tideaddress":"0xA5f334DE7f581101AB1090C6B536a8924A729f8E",
+         "name":"Trust Wallet",
+         "symbol":"TWT",
+         "decimals":"18"
+      },
+      {
+         "address":"0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+         "tideaddress":"0x6d632D80948E3db0fD3fdb383A8A2A831d186735",
+         "name":"XRP Token",
+         "symbol":"XRP",
+         "decimals":"18"
+      },
+      {
+         "address":"0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+         "tideaddress":"0xe61A5B518E4a7bB52647e22AD542e3AECC04ae60",
+         "name":"Venus",
+         "symbol":"XVS",
          "decimals":"18"
       }
    ]
