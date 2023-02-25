@@ -12,7 +12,8 @@
       "pool":"0xd99c7F6C65857AC913a8f880A4cb84032AB2FC5b",
       "stableFirst":true,
       "tidepool":"0x9eD614c982209dc81fbcA106131BDd761f4B16B6",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":2
    },
    {
       "name":"Ethereum Token",
@@ -27,7 +28,8 @@
       "pool":"0xEa26B78255Df2bBC31C1eBf60010D78670185bD0",
       "stableFirst":false,
       "tidepool":"0x9CDB61AFF58F05EFA60CeeDd4e239c101bD98DC1",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":2
    },
    {
       "name":"BTCB Token",
@@ -42,7 +44,8 @@
       "pool":"0x2dF244535624761f6fCc381CaE3e9b903429d9Ff",
       "stableFirst":false,
       "tidepool":"0xA4a05eF5660aF3561fe57b2D4DdE306D14Ab3a66",
-      "tidestableFirst":true
+      "tidestableFirst":true,
+      "bscdecimals":2
    },
    {
       "name":"Dogecoin",
@@ -57,7 +60,8 @@
       "pool":"0x3EB4d745DB8e167758475375aD3F2033f6a8332f",
       "stableFirst":true,
       "tidepool":"0x7D753AaCd27D8742E00832291eDc02caef66d82E",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":5
    },
    {
       "name":"Aave Token",
@@ -72,7 +76,8 @@
       "pool":"0x0000000000000000000000000000000000000000",
       "stableFirst":true,
       "tidepool":"0x734f47a4cAFF4Fe935B101DaDceB9397e99c391F",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":2
    },
    {
       "name":"Cardano Token",
@@ -87,7 +92,8 @@
       "pool":"0x1135C169252cf6ca4022422B5A6eF53A554e4B44",
       "stableFirst":false,
       "tidepool":"0x2dFcb929C98E29671723ecBAf802395dE739E442",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":4
    },
    {
       "name":"BakeryToken",
@@ -102,7 +108,8 @@
       "pool":"0x0000000000000000000000000000000000000000",
       "stableFirst":true,
       "tidepool":"0x64AFBd9dC2b20d5D21Fb440565C71D34a72B3fb7",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":4
    },
    {
       "name":"Bitcoin Cash Token",
@@ -117,7 +124,8 @@
       "pool":"0x5A1b731Bc200e329bCe759D58065D5197cf81b50",
       "stableFirst":true,
       "tidepool":"0x8BB2c41FC843B389cBFF0180eb8e6917EB2feC19",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":2
    },
    {
       "name":"BinaryX",
@@ -132,7 +140,8 @@
       "pool":"0xebaAe61265Eb78D921E518cf2CAd927CEb6DADB6",
       "stableFirst":true,
       "tidepool":"0x08472023325cd4EA9f3c2C7A2A80A8F3D446336D",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":3
    },
    {
       "name":"PancakeSwap Token",
@@ -147,22 +156,8 @@
       "pool":"0x177d955dCA80443A09E7a7F5946cA16b8E0dcA1C",
       "stableFirst":false,
       "tidepool":"0x91709fD52f6C0D12A05f6E9c9f19750393ab7b44",
-      "tidestableFirst":false
-   },
-   {
-      "name":"Cream",
-      "symbol":"CREAM",
-      "decimals":"18",
-      "pair":"CREAMUSD",
-      "pairIndex":"10",
-      "address":"0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888",
-      "tideaddress":"0xF647AdAB06C8B54e395EDD64e485b91FDbB10493",
-      "chainlink":"0xB8eADfD8B78aDA4F85680eD96e0f50e1B5762b0a",
-      "chainlinkdecimals":8,
-      "pool":"0x0000000000000000000000000000000000000000",
-      "stableFirst":true,
-      "tidepool":"0x480A09fA87Fda16c0feC782E6B08387102BE6397",
-      "tidestableFirst":true
+      "tidestableFirst":false,
+      "bscdecimals":3
    },
    {
       "name":"DODO bird",
@@ -177,7 +172,8 @@
       "pool":"0x0000000000000000000000000000000000000000",
       "stableFirst":false,
       "tidepool":"0x7d0820E21C8e1c32a0Db35624466955628661A37",
-      "tidestableFirst":true
+      "tidestableFirst":true,
+      "bscdecimals":4
    },
    {
       "name":"Polkadot Token",
@@ -192,7 +188,8 @@
       "pool":"0x0000000000000000000000000000000000000000",
       "stableFirst":false,
       "tidepool":"0x6AfdE6e6ed4a6aF64Fc932701b9E992879D7F967",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":3
    },
    {
       "name":"Filecoin",
@@ -207,7 +204,8 @@
       "pool":"0x0000000000000000000000000000000000000000",
       "stableFirst":false,
       "tidepool":"0xB61225df89badebAEe19a60D61A72e54d85e5757",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":3
    },
    {
       "name":"Frontier Token",
@@ -222,7 +220,8 @@
       "pool":"0xa73C27f745aD9e16b5ea90252D665F7Bd5E6fc6a",
       "stableFirst":true,
       "tidepool":"0x6fdc8F88DfF0F89b6e913E3C0748b9aE7a2aDb7E",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":4
    },
    {
       "name":"Green Metaverse Token",
@@ -237,7 +236,8 @@
       "pool":"0x007EC643C7Cc33a70C083fC305c283dd009C8b94",
       "stableFirst":false,
       "tidepool":"0xDdC07FF01e2C9c2854F34943b7cb651c14898CB2",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":4
    },
    {
       "name":"Injective Protocol",
@@ -252,7 +252,8 @@
       "pool":"0x08C80b8b9A7a5348cE70c28a47927dEfFF8b550B",
       "stableFirst":true,
       "tidepool":"0xB3131F83Da2616d295EE5f07C03969715fa81218",
-      "tidestableFirst":true
+      "tidestableFirst":true,
+      "bscdecimals":3
    },
    {
       "name":"ChainLink Token",
@@ -267,7 +268,8 @@
       "pool":"0xC0E5CbaD43f90d03E4F54Ac09f3F01350b0c8eef",
       "stableFirst":true,
       "tidepool":"0x368C2648Ff8805cF6dC71A098A5F39d7929a5C8A",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":3
    },
    {
       "name":"Litecoin Token",
@@ -282,7 +284,8 @@
       "pool":"0xee9628A9B96B4f89F3e7B87893F9e6b9B3BB6474",
       "stableFirst":false,
       "tidepool":"0xd6fb7E186Cf6E110F2084CCF50fb56d4E06e1D3c",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":2
    },
    {
       "name":"Matic Token",
@@ -297,7 +300,8 @@
       "pool":"0x8816941634999d8B24F17da77619ae78a452D242",
       "stableFirst":true,
       "tidepool":"0x4d508cdca7742edA15ac05C742379f526f9dc62b",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":4
    },
    {
       "name":"Mobox",
@@ -312,7 +316,8 @@
       "pool":"0x0000000000000000000000000000000000000000",
       "stableFirst":false,
       "tidepool":"0xe46bC2288E2686263822250267E2a22C07Be7751",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":3
    },
    {
       "name":"Reef.finance",
@@ -327,7 +332,8 @@
       "pool":"0xDB8eb9A45aAd07e9BD8Cf128fF455CC3D56842bA",
       "stableFirst":true,
       "tidepool":"0xc23f74Ea42cAb0D93701Ccc432e7ec9aFf1ce5B6",
-      "tidestableFirst":true
+      "tidestableFirst":true,
+      "bscdecimals":6
    },
    {
       "name":"SafePal Token",
@@ -342,7 +348,8 @@
       "pool":"0x4fFD2E056266Ebf67D0037759E1e9170a49bE807",
       "stableFirst":true,
       "tidepool":"0x630d39DD78B4FDaae7A426F90f187F7610638802",
-      "tidestableFirst":true
+      "tidestableFirst":true,
+      "bscdecimals":4
    },
    {
       "name":"Swipe",
@@ -357,7 +364,8 @@
       "pool":"0x0000000000000000000000000000000000000000",
       "stableFirst":false,
       "tidepool":"0x3BFc89d26E2C87Cf116cfa4b73413d6C87350259",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":4
    },
    {
       "name":"TRON",
@@ -372,7 +380,8 @@
       "pool":"0x0000000000000000000000000000000000000000",
       "stableFirst":false,
       "tidepool":"0x3b0bC9b806F2C10a876d077182173CD875d70632",
-      "tidestableFirst":true
+      "tidestableFirst":true,
+      "bscdecimals":5
    },
    {
       "name":"Trust Wallet",
@@ -387,7 +396,8 @@
       "pool":"0x0000000000000000000000000000000000000000",
       "stableFirst":false,
       "tidepool":"0xDA2D9F9d53C1Bb88302D0ae53c28D4828467151c",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":4
    },
    {
       "name":"XRP Token",
@@ -402,7 +412,8 @@
       "pool":"0xf44aE8Bb268B72Eba23870184A011c3F78a80e66",
       "stableFirst":false,
       "tidepool":"0x43A25DF0525EB82Dce946a4CC02DBEd1116C9c9A",
-      "tidestableFirst":false
+      "tidestableFirst":false,
+      "bscdecimals":4
    },
    {
       "name":"Venus",
@@ -417,6 +428,7 @@
       "pool":"0x534e7362C59746F05F5c0CBA73Ae2b76DdccD974",
       "stableFirst":true,
       "tidepool":"0x9D540c58C6815EC3771A5A810510D7d3242883a4",
-      "tidestableFirst":true
+      "tidestableFirst":true,
+      "bscdecimals":2
    }
 ]
